@@ -1,6 +1,8 @@
-/*** src/index.js ***/
 import React from 'react';
-const ReactDemo = () => (
- <h1>这是我的第一个 react npm 组件</h1>
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM.render( < App /> ,
+    document.getElementById('app')
 );
-export default ReactDemo;
