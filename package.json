@@ -71,6 +71,7 @@
         "workbox-webpack-plugin": "4.3.1"
     },
     "devDependencies": {
+        "babel-plugin-import": "^1.13.3",
         "compressing": "^1.5.1"
     },
     "eslintConfig": {
@@ -136,11 +137,6 @@
         "watchPlugins": [
             "jest-watch-typeahead/filename",
             "jest-watch-typeahead/testname"
-        ]
-    },
-    "babel": {
-        "presets": [
-            "react-app"
         ]
     }
 }
